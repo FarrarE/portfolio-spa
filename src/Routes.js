@@ -1,8 +1,8 @@
 import React from "react";
 import { Route, Switch } from "react-router-dom";
-import Home from "./containers/Home";
-import About from "./containers/About";
-import Projects from "./containers/Projects";
+import Home from "./containers/Home/index";
+import About from "./containers/About/index";
+import Projects from "./containers/Projects/index";
 
 export default function Routes() {
   return (
