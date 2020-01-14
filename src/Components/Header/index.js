@@ -7,23 +7,24 @@ import "./styles.css";
 
 function Header() {
   return (
-    <div>  
-      <Nav>
-        <h2>Ezra Farrar</h2> 
+    <div className="navbar">  
+        <Nav >
+            <NavItem>
+            <NavLink href="#">About</NavLink>
+            </NavItem>
+            <NavItem>
+            <NavLink href="#">Project</NavLink>
+            </NavItem>
+        </Nav>
+      <Nav className="social">
         <NavItem>
-          <NavLink href="#">About</NavLink>
-        </NavItem>
-        <NavItem>
-          <NavLink href="#">Project</NavLink>
-        </NavItem>
-        <NavItem>
-          <NavLink href="#"><GitHub /></NavLink>
-        </NavItem>
-        <NavItem>
-          <NavLink href="#"><Linkedin /></NavLink>
-        </NavItem>
-        <NavItem>
-          <NavLink href="#"><Mail /></NavLink>
+            <NavLink href="#"><GitHub /></NavLink>
+            </NavItem>
+            <NavItem>
+            <NavLink href="#"><Linkedin /></NavLink>
+            </NavItem>
+            <NavItem>
+            <NavLink href="#"><Mail /></NavLink>
         </NavItem>
       </Nav>
     </div>
