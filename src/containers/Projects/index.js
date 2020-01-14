@@ -1,5 +1,5 @@
 import React from 'react';
-import { CardLink, Badge,
+import { CardLink, Fade,
   UncontrolledPopover, PopoverHeader, PopoverBody,
   Card, CardImg, CardText, CardBody,
   CardTitle, CardSubtitle, Button, CardHeader, CardFooter
@@ -8,7 +8,7 @@ import "./styles.css";
 
 function Projects() {
   return (
-    <div className="Projects">
+    <Fade in="true" className="Projects">
    
       <Card className="card">
         <CardBody>
@@ -87,7 +87,7 @@ function Projects() {
         <PopoverHeader>Webpack</PopoverHeader>
         <PopoverBody>A opensource module bundler that generates static assets from HTML and CSS for deployment.</PopoverBody>
       </UncontrolledPopover>
-    </div>
+    </Fade>
   );
 }
 
