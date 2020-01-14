@@ -1,0 +1,21 @@
+.Projects{
+    display:flex;
+
+    .card{
+        margin:2rem;
+        max-width:25rem;
+    }
+    button{
+        margin:0rem .5rem 0rem 0rem;   
+    }
+    .card-footer > *{
+        font-size: 1.5rem;
+        margin:0rem .5rem 0rem 0rem;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .Projects{
+        flex-direction: column;
+    }
+  }
