@@ -8,14 +8,14 @@ import "./styles.css";
 function Header() {
   return (
     <div className="navbar">  
-        <Nav >
-            <NavItem>
-            <NavLink href="#">About</NavLink>
-            </NavItem>
-            <NavItem>
-            <NavLink href="#">Project</NavLink>
-            </NavItem>
-        </Nav>
+      <Nav >
+          <NavItem>
+          <NavLink href="/about">About</NavLink>
+          </NavItem>
+          <NavItem>
+          <NavLink href="/projects">Project</NavLink>
+          </NavItem>
+      </Nav>
       <Nav className="social">
         <NavItem>
             <NavLink href="#"><GitHub /></NavLink>
