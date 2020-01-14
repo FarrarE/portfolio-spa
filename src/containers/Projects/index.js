@@ -18,9 +18,9 @@ function Projects() {
           <Button>Deployment</Button>
         </CardBody>
         <CardFooter className="card-footer">
-          <i class="devicon-react-original colored"></i>
-          <i class="devicon-bootstrap-plain colored"></i>
-          <i class="devicon-nodejs-plain colored"></i>
+          <i id="reactPopover" class="devicon-react-original colored"></i>
+          <i id="bootstrapPopover" class="devicon-bootstrap-plain colored"></i>
+          <i id="nodePopover" class="devicon-nodejs-plain colored"></i>
         </CardFooter>
       </Card>
       <Card className="card">
@@ -32,10 +32,10 @@ function Projects() {
           <Button>Deployment</Button>
         </CardBody>
         <CardFooter className="card-footer">
-          <i class="devicon-react-original colored"></i>
-          <i class="devicon-bootstrap-plain colored"></i>
-          <i class="devicon-amazonwebservices-original colored"></i>
-          <i class="devicon-webpack-plain colored"></i>
+          <i id="reactPopover" class="devicon-react-original colored"></i>
+          <i id="bootstrapPopover" class="devicon-bootstrap-plain colored"></i>
+          <i id="amazonPopover" class="devicon-amazonwebservices-original colored"></i>
+          <i id="webpackPopover" class="devicon-webpack-plain colored"></i>
         </CardFooter>
       </Card>
       <Card className="card"> 
@@ -46,11 +46,35 @@ function Projects() {
           <Button>Deployment</Button>
         </CardBody>
         <CardFooter className="card-footer">
-          <i class="devicon-bootstrap-plain colored"></i>
-          <i class="devicon-jquery-plain colored"></i>
+          <i id="bootstrapPopover" class="devicon-bootstrap-plain colored"></i>
+          <i id="jqueryPopover" class="devicon-jquery-plain colored"></i>
         </CardFooter>
       </Card>
 
+      <UncontrolledPopover trigger="click" placement="bottom" target="reactPopover">
+        <PopoverHeader>React</PopoverHeader>
+        <PopoverBody>A Javascript framework for building component based user interfaces.</PopoverBody>
+      </UncontrolledPopover>
+      <UncontrolledPopover trigger="click" placement="bottom" target="bootstrapPopover">
+        <PopoverHeader>Boostrap</PopoverHeader>
+        <PopoverBody>A html, css, and javascript toolkit for building responsive layouts.</PopoverBody>
+      </UncontrolledPopover>
+      <UncontrolledPopover trigger="click" placement="bottom" target="nodePopover">
+        <PopoverHeader>Node</PopoverHeader>
+        <PopoverBody>A opensource javascript runtime environment for executing javascript outside of the browser to serve REST API endpoints. </PopoverBody>
+      </UncontrolledPopover>
+      <UncontrolledPopover trigger="click" placement="bottom" target="amazonPopover">
+        <PopoverHeader>Amazon WebServices</PopoverHeader>
+        <PopoverBody>Amazon provides a variety of cloud based services. This project used S3, Cognito, Lambda, and DynamoDB to handle serverless api calls, user identification, and store user information.</PopoverBody>
+      </UncontrolledPopover>
+      <UncontrolledPopover trigger="click" placement="bottom" target="jqueryPopover">
+        <PopoverHeader>JQuery</PopoverHeader>
+        <PopoverBody>A Javascript library that simplifies many tasks and provides a unique selector syntax.</PopoverBody>
+      </UncontrolledPopover>
+      <UncontrolledPopover trigger="click" placement="bottom" target="webpackPopover">
+        <PopoverHeader>Webpack</PopoverHeader>
+        <PopoverBody>A opensource module bundler that generates static assets from HTML and CSS for deployment.</PopoverBody>
+      </UncontrolledPopover>
     </div>
   );
 }
