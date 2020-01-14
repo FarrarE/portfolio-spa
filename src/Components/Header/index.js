@@ -18,13 +18,13 @@ function Header() {
       </Nav>
       <Nav className="social">
         <NavItem>
-            <NavLink href="#"><GitHub /></NavLink>
+            <NavLink href="https://github.com/FarrarE" target="_blank"><GitHub /></NavLink>
             </NavItem>
             <NavItem>
-            <NavLink href="#"><Linkedin /></NavLink>
+            <NavLink href="https://www.linkedin.com/in/ezra-farrar-149259173/" target="_blank"><Linkedin /></NavLink>
             </NavItem>
             <NavItem>
-            <NavLink href="#"><Mail /></NavLink>
+            <NavLink href="mailto: contact.efarrar@gmail.com" target="_blank"><Mail /></NavLink>
         </NavItem>
       </Nav>
     </div>
