@@ -1,7 +1,18 @@
 .App{
+    position: relative;
     display: flex;
     flex-direction: column;
     margin: 1rem;
+    min-height:95vh;
+}
+.Footer{
+    position: absolute;
+    width:100%;
+    bottom:0;
+    display: flex;
+    justify-content: center;
+    color:grey;
+    font-size: .76rem;
 }
 
 @media (prefers-reduced-motion: no-preference) {

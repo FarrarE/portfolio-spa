@@ -8,6 +8,9 @@ function App() {
     <div className="App">
       <Header />
       <Routes />
+      <div className="Footer">
+      © Copyright 2020 Ezra Farrar
+      </div>
     </div>
   );
 }
