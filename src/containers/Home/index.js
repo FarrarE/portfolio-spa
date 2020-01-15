@@ -1,11 +1,12 @@
 import React from 'react';
 import "./styles.css";
+import { Fade } from 'reactstrap';
 
 function Home() {
   return (
-    <div className="Home">
+    <Fade className="Home">
         Home
-    </div>
+    </Fade>
   );
 }
 
