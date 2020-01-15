@@ -1,5 +1,5 @@
 import React from 'react';
-import { Nav, NavItem, NavLink, Row, Col } from 'reactstrap';
+import { Nav, NavItem, NavLink } from 'reactstrap';
 import { GitHub } from 'react-feather';
 import { Linkedin } from 'react-feather';
 import { Mail } from 'react-feather';
