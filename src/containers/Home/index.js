@@ -9,7 +9,7 @@ function Home() {
       <object className="icon" type="image/svg+xml" data={code}>
         Your browser does not support SVG
       </object>
-      <h1>Welcome to my web portfolio, take a look around.</h1>
+      <h1 className="landing-header">Welcome to my web portfolio, take a look around.</h1>
     </Fade>
   );
 }

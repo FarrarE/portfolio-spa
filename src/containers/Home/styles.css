@@ -14,8 +14,11 @@
 }
 
 .Home .icon {
-  margin: 1rem;
-  height: 7rem;
-  width: 7rem;
+  height: 10rem;
+  width: 10rem;
+}
+
+.Home .landing-header {
+  margin: 2rem 0;
 }
 /*# sourceMappingURL=styles.css.map */
