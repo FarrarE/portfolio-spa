@@ -8,6 +8,10 @@
   color: inherit;
 }
 
+.navbar a:link:hover {
+  text-decoration: underline;
+}
+
 .navbar a:visited {
   text-decoration: none;
   color: inherit;

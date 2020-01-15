@@ -5,7 +5,7 @@ import { Fade } from 'reactstrap';
 function Home() {
   return (
     <Fade className="Home">
-      Home
+      Welcome to my web portfolio.
     </Fade>
   );
 }
