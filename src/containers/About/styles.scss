@@ -3,6 +3,9 @@
     h2{
         margin:0rem -.5rem;
     }
+    .text-body{
+        margin:2rem 0;
+    }
 }
 
 .hobbies{
@@ -12,6 +15,7 @@
     flex-direction: column;
     text-align: center;
     align-items: center;
+    margin:2rem;
 
     .hobby{
         width:5rem;

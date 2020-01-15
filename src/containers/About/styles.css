@@ -6,6 +6,10 @@
   margin: 0rem -.5rem;
 }
 
+.About .text-body {
+  margin: 2rem 0;
+}
+
 .hobbies {
   font-style: italic;
   color: grey;
@@ -20,6 +24,7 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  margin: 2rem;
 }
 
 .hobbies .hobby {
