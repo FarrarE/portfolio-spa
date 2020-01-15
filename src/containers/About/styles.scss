@@ -1,3 +1,10 @@
+.About{
+    margin:2rem;
+    h2{
+        margin:0rem -.5rem;
+    }
+}
+
 .hobbies{
     font-style: italic;
     color:grey;
@@ -10,5 +17,8 @@
         width:5rem;
         height:5rem;
         margin:.5rem;
+    }
+    .signature{
+        font-size: .75rem;
     }
 }
