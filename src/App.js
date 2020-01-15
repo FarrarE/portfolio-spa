@@ -1,6 +1,7 @@
 import React from 'react';
 import Routes from "./Routes";
 import Header from "./Components/Header";
+import Footer from "./Components/Footer";
 import './App.css';
 
 function App() {
@@ -8,11 +9,10 @@ function App() {
     <div className="App">
       <Header />
       <Routes />
-      <div className="Footer">
-      © Copyright 2020 Ezra Farrar
-      </div>
+      <Footer />
     </div>
   );
 }
+
 
 export default App;
