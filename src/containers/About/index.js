@@ -1,5 +1,5 @@
 import React from 'react';
-import { Fade} from 'reactstrap';
+import { Fade } from 'reactstrap';
 import "./styles.css";
 import cooking from "./icons/cutting-board.svg";
 import code from "./icons/code.svg";
