@@ -25,7 +25,11 @@ function About() {
           <object className="hobby" type="image/svg+xml" data={art} />
           <object className="hobby" type="image/svg+xml" data={games} />
           </div>
-          <div className="signature">Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/"     title="Flaticon">www.flaticon.com</a></div>
+          <div className="signature">Icons made by 
+            <a href="https://www.flaticon.com/authors/freepik" 
+              title="Freepik" target="_blank">
+              Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon" target="_blank">www.flaticon.com
+            </a></div>
         </div>
     </Fade>
   );
