@@ -1,5 +1,5 @@
 import React from 'react';
-import { Nav, NavItem} from 'reactstrap';
+import { Nav, NavItem, NavLink} from 'reactstrap';
 import { Link } from "react-router-dom";
 import { GitHub } from 'react-feather';
 import { Linkedin } from 'react-feather';
@@ -19,13 +19,13 @@ function Header() {
       </Nav>
       <Nav className="social">
         <NavItem>
-          <Link to="https://github.com/FarrarE" target="_blank" className="nav-link"><GitHub /></Link>
+          <NavLink href="https://github.com/FarrarE" target="_blank" className="nav-link"><GitHub /></NavLink>
           </NavItem>
           <NavItem>
-          <Link to="https://www.linkedin.com/in/ezra-farrar-149259173/" target="_blank" className="nav-link"><Linkedin /></Link>
+          <NavLink href="https://www.linkedin.com/in/ezra-farrar-149259173/" target="_blank" className="nav-link"><Linkedin /></NavLink>
           </NavItem>
           <NavItem>
-          <Link to="mailto: contact.efarrar@gmail.com" target="_blank" className="nav-link"><Mail /></Link>
+          <NavLink href="mailto: contact.efarrar@gmail.com" target="_blank" className="nav-link"><Mail /></NavLink>
         </NavItem>
       </Nav>
     </div>
