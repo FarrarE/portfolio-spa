@@ -11,4 +11,9 @@
   color: grey;
   font-size: .76rem;
 }
+
+.Footer .copyright {
+  float: right;
+  text-align: right;
+}
 /*# sourceMappingURL=styles.css.map */
