@@ -12,7 +12,7 @@ function Projects() {
    
       <Card className="card">
         <CardBody>
-          <CardTitle>DMScreen</CardTitle>
+          <CardTitle><h3>DMScreen</h3></CardTitle>
           <CardText>DMScreen is a web app tool for Dungeons Masters to track important information about the game they are playing. This version has been designed specifically for Dungeon and Dragons 5th Edition and is open source to allow others to adapt it for other editions.</CardText>
           <CardLink href="https://github.com/FarrarE/DMScreen?" target="_blank">
             <Button>Repo</Button>
@@ -29,7 +29,7 @@ function Projects() {
       </Card>
       <Card className="card">
         <CardBody>
-          <CardTitle>MTGSpellbook</CardTitle>
+          <CardTitle><h3>MTGSpellbook</h3></CardTitle>
           <CardText>MTGSpellbook is a web app that allows users to store information about their Magic the Gathering collection. Using AWS API gateways, it can store user information in DynamoDB and uses Cognito identity pools to authenticate user login and API requests.
           </CardText>
           <CardLink href="https://github.com/FarrarE/mtgspellbook?" target="_blank">
@@ -48,7 +48,7 @@ function Projects() {
       </Card>
       <Card className="card"> 
         <CardBody>
-          <CardTitle>5E Character Sheet</CardTitle>
+          <CardTitle><h3>5E Character Sheet</h3></CardTitle>
           <CardText>A digital charactersheet for Dungeons and Dragons 5th Edition that stores the information in your local browser for later use.</CardText>
           <CardLink href="https://github.com/FarrarE/5eCharacterSheet?" target="_blank">
             <Button>Repo</Button>
