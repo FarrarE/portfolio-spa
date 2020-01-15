@@ -1,0 +1,14 @@
+.hobbies{
+    font-style: italic;
+    color:grey;
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+
+    .hobby{
+        width:5rem;
+        height:5rem;
+        margin:.5rem;
+    }
+}

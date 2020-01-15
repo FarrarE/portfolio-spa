@@ -5,7 +5,7 @@ import { Fade } from 'reactstrap';
 function Home() {
   return (
     <Fade className="Home">
-        Home
+      Home
     </Fade>
   );
 }
