@@ -1,10 +1,22 @@
 .Projects{
     display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left:5%;
+    margin-right:5%;
     margin-bottom: 2rem;
     .card{
-        margin:2rem;
+        min-width:25rem;
         max-width:25rem;
+        min-height:20rem;
+        margin-top:1rem;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+        opacity: 1;
+        animation-name: fadeInOpacity;
+        animation-iteration-count: 1;
+        animation-timing-function: ease-in;
+        animation-duration: .25s;
     }
     .card-footer > *{
         font-size: 1.5rem;
@@ -20,3 +32,12 @@
         flex-direction: column;
     }
   }
+
+@keyframes fadeInOpacity {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}

@@ -10,17 +10,18 @@ function Projects() {
   return (
     <Fade in="true" className="Projects">
       <Card className="card">
-        <CardBody>
-          <CardTitle><h3>Battle Map Web App</h3></CardTitle>
-          <CardText>This app lets the user upload different images and converts those images into grid boards of variable size. Tokens can be added
-            to the gameboard, scale to the grid, and can be moved around as a representation for tabletop games.
+        <CardBody className="card-body">
+          <CardTitle><h3>Battlemap Web App</h3></CardTitle>
+          <CardText>
+            Users can upload their own battlemaps for any tabletop game, add tokens, and move those tokens around a grid of
+            variable size.
           </CardText>
-          <CardLink href="https://github.com/FarrarE/GameBoard" target="_blank">
-            <Button>Repo</Button>
-          </CardLink>
-          <CardLink href="https://farrare.github.io/GameBoard/" target="_blank">
-            <Button>Deployment</Button>
-          </CardLink>
+            <CardLink href="https://github.com/FarrarE/GameBoard" target="_blank">
+              <Button>Repo</Button>
+            </CardLink>
+            <CardLink href="https://farrare.github.io/GameBoard/" target="_blank">
+              <Button>Deployment</Button>
+            </CardLink>
         </CardBody>
         <CardFooter className="card-footer">
           <i id="reactPopover" class="devicon-react-original colored"></i>
@@ -28,7 +29,7 @@ function Projects() {
         </CardFooter>
       </Card>
       <Card className="card">
-        <CardBody>
+        <CardBody className="card-body">
           <CardTitle><h3>Turn Order Tracker</h3></CardTitle>
           <CardText>This app allows to track turn order for tabletop games, including a feature to sort by iniative.</CardText>
           <CardLink href="https://github.com/FarrarE/DMScreen?" target="_blank">
@@ -45,7 +46,7 @@ function Projects() {
         </CardFooter>
       </Card>
       <Card className="card">
-        <CardBody>
+        <CardBody className="card-body">
           <CardTitle><h3>MTGSpellbook</h3></CardTitle>
           <CardText>MTGSpellbook is a web app that allows users to store information about their Magic the Gathering collection. Using AWS API gateways, it can store user information in DynamoDB and uses Cognito identity pools to authenticate user login and API requests.
           </CardText>
@@ -62,9 +63,9 @@ function Projects() {
           <i id="amazonPopover" class="devicon-amazonwebservices-original colored"></i>
           <i id="webpackPopover" class="devicon-webpack-plain colored"></i>
         </CardFooter>
-      </Card>
+      </Card >
       <Card className="card"> 
-        <CardBody>
+        <CardBody className="card-body">
           <CardTitle><h3>5E Character Sheet</h3></CardTitle>
           <CardText>A digital charactersheet for Dungeons and Dragons 5th Edition that stores the information in your local browser for later use.</CardText>
           <CardLink href="https://github.com/FarrarE/5eCharacterSheet?" target="_blank">
