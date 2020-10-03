@@ -9,11 +9,28 @@ import "./styles.css";
 function Projects() {
   return (
     <Fade in="true" className="Projects">
-   
       <Card className="card">
         <CardBody>
-          <CardTitle><h3>DMScreen</h3></CardTitle>
-          <CardText>DMScreen is a web app tool for Dungeons Masters to track important information about the game they are playing. This version has been designed specifically for Dungeon and Dragons 5th Edition and is open source to allow others to adapt it for other editions.</CardText>
+          <CardTitle><h3>Battle Map Web App</h3></CardTitle>
+          <CardText>This app lets the user upload different images and converts those images into grid boards of variable size. Tokens can be added
+            to the gameboard, scale to the grid, and can be moved around as a representation for tabletop games.
+          </CardText>
+          <CardLink href="https://github.com/FarrarE/GameBoard" target="_blank">
+            <Button>Repo</Button>
+          </CardLink>
+          <CardLink href="https://farrare.github.io/GameBoard/" target="_blank">
+            <Button>Deployment</Button>
+          </CardLink>
+        </CardBody>
+        <CardFooter className="card-footer">
+          <i id="reactPopover" class="devicon-react-original colored"></i>
+          <i id="amazonPopover" class="devicon-amazonwebservices-original colored"></i>
+        </CardFooter>
+      </Card>
+      <Card className="card">
+        <CardBody>
+          <CardTitle><h3>Turn Order Tracker</h3></CardTitle>
+          <CardText>This app allows to track turn order for tabletop games, including a feature to sort by iniative.</CardText>
           <CardLink href="https://github.com/FarrarE/DMScreen?" target="_blank">
             <Button>Repo</Button>
           </CardLink>
