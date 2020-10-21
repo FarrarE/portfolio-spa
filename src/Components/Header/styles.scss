@@ -8,9 +8,9 @@
     background: #48565f;
     box-shadow:  .3rem .3rem .3rem #2f383e; 
 
-    color:rgb(192, 192, 192);
     
     a:link {
+        font-size: 2rem;
         text-decoration: none;
         color:inherit;
     }
@@ -28,6 +28,9 @@
 
 @media only screen and (max-width: 600px) {
     .navbar{
+        margin:0;
+        border-radius: 0;
+        width:100%;
         position:fixed !important;
         z-index: 300;
     }
