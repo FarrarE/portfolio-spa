@@ -8,8 +8,9 @@
       -ms-flex-direction: column;
           flex-direction: column;
   min-height: 100vh;
-  color: whitesmoke;
+  color: white;
   background-color: #374249;
+  font-family: Gill Sans,Gill Sans MT,Calibri,sans-serif;
   /* background by SVGBackgrounds.com */
 }
 
@@ -21,12 +22,16 @@
   background-size: cover;
   width: 100%;
   height: 100%;
-  opacity: 20%;
+  opacity: .3;
+  z-index: 0;
 }
 
 @media only screen and (max-width: 600px) {
   .App {
     padding-top: 10rem;
+  }
+  .background {
+    height: 100vh;
   }
 }
 /*# sourceMappingURL=App.css.map */
