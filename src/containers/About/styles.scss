@@ -1,21 +1,23 @@
 .About{
-    margin:2rem;
     h2{
         margin:0rem -.5rem;
     }
-    .text-body{
+    .about-text{
         margin:2rem 0;
+
     }
+
+    margin:2rem;
     opacity: 1;
     animation-name: fadeInOpacity;
     animation-iteration-count: 1;
     animation-timing-function: ease-in;
     animation-duration: .25s;
+    z-index: 0;
 }
 
 .hobbies{
-    font-style: italic;
-    color:grey;
+    font-style: italic; 
     display:flex;
     flex-direction: column;
     text-align: center;

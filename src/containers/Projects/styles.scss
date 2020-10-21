@@ -1,26 +1,31 @@
 .Projects{
     display:flex;
     flex-wrap: wrap;
+    margin-bottom:7rem;
     justify-content: space-between;
-    margin-left:5%;
-    margin-right:5%;
-    margin-bottom: 2rem;
+    padding: 7rem 5rem;
     .card{
-        min-width:25rem;
-        max-width:25rem;
-        min-height:20rem;
-        margin-top:1rem;
-        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-
+        background: #48565f;
+        box-shadow:  .3rem .3rem .3rem #2f383e; 
+        width:21em;
         opacity: 1;
         animation-name: fadeInOpacity;
         animation-iteration-count: 1;
         animation-timing-function: ease-in;
         animation-duration: .25s;
+        margin:1rem;
+        border-radius: .5rem;
+    }
+    .card-footer{
+        display:flex;
+        justify-content: space-between;
+
+        .dev-icons > *{
+            margin:.1rem;
+        }
     }
     .card-footer > *{
         font-size: 1.5rem;
-        margin:0rem .5rem 0rem 0rem;
     }
     .card-footer > *:hover{
         cursor: pointer;
@@ -30,6 +35,7 @@
 @media only screen and (max-width: 700px) {
     .Projects{
         flex-direction: column;
+        padding:0;
     }
   }
 

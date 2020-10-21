@@ -1,6 +1,14 @@
 .navbar {
+  top: 0px;
+  left: 0px;
   font-weight: bold;
   font-size: 1.5rem;
+  border-radius: .5rem;
+  margin: 1rem;
+  background: #48565f;
+  -webkit-box-shadow: .3rem .3rem .3rem #2f383e;
+          box-shadow: .3rem .3rem .3rem #2f383e;
+  color: silver;
 }
 
 .navbar a:link {
@@ -15,5 +23,12 @@
 .navbar a:visited {
   text-decoration: none;
   color: inherit;
+}
+
+@media only screen and (max-width: 600px) {
+  .navbar {
+    position: fixed !important;
+    z-index: 300;
+  }
 }
 /*# sourceMappingURL=styles.css.map */

@@ -4,21 +4,18 @@
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  margin-bottom: 7rem;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  margin-left: 5%;
-  margin-right: 5%;
-  margin-bottom: 2rem;
+  padding: 7rem 5rem;
 }
 
 .Projects .card {
-  min-width: 25rem;
-  max-width: 25rem;
-  min-height: 20rem;
-  margin-top: 1rem;
-  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background: #48565f;
+  -webkit-box-shadow: .3rem .3rem .3rem #2f383e;
+          box-shadow: .3rem .3rem .3rem #2f383e;
+  width: 21em;
   opacity: 1;
   -webkit-animation-name: fadeInOpacity;
           animation-name: fadeInOpacity;
@@ -28,11 +25,25 @@
           animation-timing-function: ease-in;
   -webkit-animation-duration: .25s;
           animation-duration: .25s;
+  margin: 1rem;
+  border-radius: .5rem;
+}
+
+.Projects .card-footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.Projects .card-footer .dev-icons > * {
+  margin: .1rem;
 }
 
 .Projects .card-footer > * {
   font-size: 1.5rem;
-  margin: 0rem .5rem 0rem 0rem;
 }
 
 .Projects .card-footer > *:hover {
@@ -45,6 +56,7 @@
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    padding: 0;
   }
 }
 

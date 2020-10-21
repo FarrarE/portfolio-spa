@@ -9,8 +9,12 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin: 2rem;
   text-align: center;
+  margin-bottom: auto;
+  margin-top: 9rem;
+  margin-left: auto;
+  margin-right: auto;
+  color: silver;
 }
 
 .Home .icon {
@@ -20,5 +24,37 @@
 
 .Home .landing-header {
   margin: 2rem 0;
+}
+
+.Home .intro {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.Home .intro h1 {
+  margin: .5rem;
+  margin-top: 2rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .Home {
+    margin-top: 4rem;
+  }
+  .intro {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin: 0;
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+  .intro h1 {
+    font-size: 1.5rem;
+  }
 }
 /*# sourceMappingURL=styles.css.map */

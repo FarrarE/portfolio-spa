@@ -13,7 +13,7 @@ function About() {
         <h2 className="display-3">Ezra Farrar</h2>
         <p className="lead">Web Developer</p>
         <hr className="my-2" />
-        <p className="text-body">I'm a Portland State University graduate with a Bachelor's in Computer Science.</p>
+        <p className="about-text">I'm a Portland State University graduate with a Bachelor's in Computer Science.</p>
         <div className="hobbies">
           What I like to do in my spare time.
           <div className="icons">

@@ -11,10 +11,10 @@ function Header() {
     <div className="navbar">  
       <Nav >
           <NavItem>
-            <Link to="/about" className="nav-link">About</Link>
+            <Link to="/about" className="nav-link"><span>About</span></Link>
           </NavItem>
           <NavItem>
-            <Link to="/projects" className="nav-link">Projects</Link>
+            <Link to="/projects" className="nav-link"><span>Projects</span></Link>
           </NavItem>
       </Nav>
       <Nav className="social">

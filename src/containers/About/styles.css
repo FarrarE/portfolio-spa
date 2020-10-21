@@ -9,19 +9,19 @@
           animation-timing-function: ease-in;
   -webkit-animation-duration: .25s;
           animation-duration: .25s;
+  z-index: 0;
 }
 
 .About h2 {
   margin: 0rem -.5rem;
 }
 
-.About .text-body {
+.About .about-text {
   margin: 2rem 0;
 }
 
 .hobbies {
   font-style: italic;
-  color: grey;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
