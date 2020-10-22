@@ -1,4 +1,15 @@
+.about-page{
+    margin-bottom:4rem;
+}
+
 .About{
+    position: relative;
+    z-index: 2;
+    padding:3rem;
+    border-radius: .5rem;
+    background: #48565f;
+    box-shadow:  .3rem .3rem .3rem #2f383e; 
+    margin:1rem;
     h2{
         margin:0rem -.5rem;
     }
@@ -6,14 +17,13 @@
         margin:2rem 0;
 
     }
+    hr{
+        background:rgb(235, 235, 235)
+    }
+    p{
+        font-size: 2rem;
+    }
 
-    margin:2rem;
-    opacity: 1;
-    animation-name: fadeInOpacity;
-    animation-iteration-count: 1;
-    animation-timing-function: ease-in;
-    animation-duration: .25s;
-    z-index: 0;
 }
 
 .hobbies{
@@ -22,14 +32,36 @@
     flex-direction: column;
     text-align: center;
     align-items: center;
-    margin:2rem;
-
     .hobby{
         width:5rem;
         height:5rem;
         margin:.5rem;
+        box-shadow:  5px 5px 10px #3a454c;  
+        border-radius: 5rem;
     }
     .signature{
         font-size: .75rem;
+    }
+    .icons{
+        display:flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        z-index:2;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .About{
+        padding:2rem;
+        p{
+            font-size: 1.2rem;
+        }
+    }
+    .hobbies{
+        padding:1rem;
+        padding-top:2rem;
+        p{
+            margin-bottom:1rem;
+        }
     }
 }

@@ -1,15 +1,16 @@
+.about-page {
+  margin-bottom: 4rem;
+}
+
 .About {
-  margin: 2rem;
-  opacity: 1;
-  -webkit-animation-name: fadeInOpacity;
-          animation-name: fadeInOpacity;
-  -webkit-animation-iteration-count: 1;
-          animation-iteration-count: 1;
-  -webkit-animation-timing-function: ease-in;
-          animation-timing-function: ease-in;
-  -webkit-animation-duration: .25s;
-          animation-duration: .25s;
-  z-index: 0;
+  position: relative;
+  z-index: 2;
+  padding: 3rem;
+  border-radius: .5rem;
+  background: #48565f;
+  -webkit-box-shadow: .3rem .3rem .3rem #2f383e;
+          box-shadow: .3rem .3rem .3rem #2f383e;
+  margin: 1rem;
 }
 
 .About h2 {
@@ -18,6 +19,14 @@
 
 .About .about-text {
   margin: 2rem 0;
+}
+
+.About hr {
+  background: #ebebeb;
+}
+
+.About p {
+  font-size: 2rem;
 }
 
 .hobbies {
@@ -33,16 +42,46 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin: 2rem;
 }
 
 .hobbies .hobby {
   width: 5rem;
   height: 5rem;
   margin: .5rem;
+  -webkit-box-shadow: 5px 5px 10px #3a454c;
+          box-shadow: 5px 5px 10px #3a454c;
+  border-radius: 5rem;
 }
 
 .hobbies .signature {
   font-size: .75rem;
+}
+
+.hobbies .icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  z-index: 2;
+}
+
+@media only screen and (max-width: 600px) {
+  .About {
+    padding: 2rem;
+  }
+  .About p {
+    font-size: 1.2rem;
+  }
+  .hobbies {
+    padding: 1rem;
+    padding-top: 2rem;
+  }
+  .hobbies p {
+    margin-bottom: 1rem;
+  }
 }
 /*# sourceMappingURL=styles.css.map */
