@@ -7,7 +7,7 @@ import Projects from "./containers/Projects/index";
 export default function Routes() {
   return (
     <Switch>
-      <Route path="/" exact component={Home} />
+      <Route exact path="/" exact component={Home} />
       <Route path="/about" exact component={About} />
       <Route path="/projects" exact component={Projects} />
     </Switch>
