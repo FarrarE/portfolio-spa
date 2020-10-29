@@ -76,6 +76,24 @@ function Projects() {
             </div>
           </CardFooter>
         </Card>
+        <Card className="card">
+          <CardBody className="card-body">
+            <CardTitle><h3>Neudice</h3></CardTitle>
+            <CardText>A responsive dice roller using modern stylization.</CardText>
+          </CardBody>
+          <CardFooter className="card-footer">
+            <div className="dev-icons">
+            </div>
+            <div>
+              <CardLink href="https://github.com/FarrarE/neudice?" target="_blank">
+                <Button>Repo</Button>
+              </CardLink>
+              <CardLink href="http://www.neudice.com" target="_blank">
+                <Button>Deployment</Button>
+              </CardLink>
+            </div>
+          </CardFooter>
+        </Card>
 
         <UncontrolledPopover trigger="click" placement="bottom" target="reactPopover1">
           <PopoverHeader>React</PopoverHeader>
@@ -97,7 +115,7 @@ function Projects() {
           <PopoverHeader>JQuery</PopoverHeader>
           <PopoverBody>A Javascript library that simplifies many tasks and provides a unique selector syntax.</PopoverBody>
         </UncontrolledPopover>
-        
+
 
         <UncontrolledPopover trigger="click" placement="bottom" target="reactPopover2">
           <PopoverHeader>React</PopoverHeader>

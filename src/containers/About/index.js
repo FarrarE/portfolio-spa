@@ -10,18 +10,18 @@ import games from "./icons/board-games.svg";
 
 function About() {
   return (
-    <Fade className="about-page" >
+    <div className="about-page">
       <div className="About">
         <h2 className="display-3">Ezra Farrar</h2>
         <p className="lead">Web Developer</p>
         <hr className="my-2" />
         <p className="about-text">
           I'm a Portland State University graduate with a Bachelor's in Computer Science. I've always had a deep interest
-          in both art and technical problem solving. I found my perfect outlet in web development.
+          in both art and technical problem solving. I found my perfect outlet in the unique challenges presented in web development.
       </p>
         <p className="about-text">
-          I enjoy the unique challenges presented in backend database management and frontend object stylization. My framework of choice
-          is React, which I use with nodejs or serverless backends to create web based applications.
+        My framework of choice is React, which I use with nodejs or serverless backends to create web based applications.
+        With a focus on the DRY principle while under the strict supervision of my cat Momo, I strive to write code that is efficient, clear, and reusable.  
       </p>
         <div className="hobbies">
           <p>What I like to do in my spare time.</p>
@@ -46,7 +46,7 @@ function About() {
         </div>
       </div>
       <Footer />
-    </Fade >
+    </div >
   );
 }
 
