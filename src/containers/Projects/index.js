@@ -36,6 +36,24 @@ function Projects() {
         </Card>
         <Card className="card">
           <CardBody className="card-body">
+            <CardTitle><h3>PeerIDE</h3></CardTitle>
+            <CardText>A web based code editor. A react app wrapped around react-ace editor. Once wrapper functionality is completely implementd, socket.io will permit peer programming remotely.</CardText>
+          </CardBody>
+          <CardFooter className="card-footer">
+            <div className="dev-icons">
+            </div>
+            <div>
+              <CardLink href="https://github.com/FarrarE/peerIDE" target="_blank">
+                <Button>Repo</Button>
+              </CardLink>
+              <CardLink href="https://farrare.github.io/peerIDE/" target="_blank">
+                <Button>Deployment</Button>
+              </CardLink>
+            </div>
+          </CardFooter>
+        </Card>
+        <Card className="card">
+          <CardBody className="card-body">
             <CardTitle><h3>Turn Order Tracker</h3></CardTitle>
             <CardText>This app allows to track turn order for tabletop games, including a feature to sort by iniative.</CardText>
           </CardBody>
